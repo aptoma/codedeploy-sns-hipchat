@@ -1,0 +1,22 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:eu-west-1:123456789:download:aaaa",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "361876765d21-e94a-5347-843d-f4cd7927",
+                "TopicArn": "arn:aws:sns:eu-west-1:123456789:codedeploy-notifications",
+                "Subject": "SUCCEEDED: AWS CodeDeploy d-XXXXX in eu-west-1 to myApplication",
+                "Message":  "{\"eventTriggerName\":\"trigger-group-deploy-all\",\"applicationName\":\"myApplication\",\"deploymentId\":\"d-XXXXX\",\"deploymentGroupName\":\"development\",\"createTime\":\"Thu Feb 18 10:27:53 UTC 2016\",\"completeTime\":\"Thu Feb 18 10:29:16 UTC 2016\",\"deploymentOverview\":\"{\\\"Succeeded\\\":2,\\\"Failed\\\":0,\\\"Skipped\\\":0,\\\"InProgress\\\":0,\\\"Pending\\\":0}\",\"status\":\"SUCCEEDED\"}",
+                "Timestamp": "2016-02-18T10:29:16.427Z",
+                "SignatureVersion": "1",
+                "Signature": "xxxx",
+                "SigningCertURL": "",
+                "UnsubscribeURL": ""
+            }
+        }
+    ]
+}
+
